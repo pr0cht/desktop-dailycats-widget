@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "electron": "^38.2.0"
+  },
+  "main": "main.js",
+  "name": "desktop-dailycats-widget",
+  "version": "1.0.0",
+  "description": "A desktop widget for displaying random pictures of cats daily!",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "author": "Eugene Andreu Cuello",
+  "license": "ISC"
+}
