@@ -2,19 +2,15 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
-    <meta
-      http-equiv="Content-Security-Policy"
-      content="default-src 'self'; script-src 'self'"
-    />
-    <meta
-      http-equiv="X-Content-Security-Policy"
-      content="default-src 'self'; script-src 'self'"
-    />
-    <title>Hello from Electron renderer!</title>
+    <title>Daily Cats!</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>Hello from Electron renderer!</h1>
-    <p>👋</p>
+    <div id="widget">
+      <img id="close" src="assets/close.png" alt="close" />      
+      <h1 id="label">Cat!</h1>
+      <img id="catImage" src="" alt="a cat!" />"
+    </div>
   </body>
+  <script src="./renderer.js"></script>
 </html>
